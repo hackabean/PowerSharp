@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "Provide full path to powershell script to encode and compress"
 file=$1
 gzip $file -c | base64 -w 0 > /tmp/gzippedB64
 echo "\$Decoded = [System.Convert]::FromBase64String(\"" > /tmp/build
