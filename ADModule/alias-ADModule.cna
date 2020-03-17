@@ -1,0 +1,173 @@
+alias ADModule {
+
+    local('$bid' '$2');
+    $bid = $1;
+    $args = substr($0, 7);
+	
+	   if ($2 eq "") {
+
+       blog($bid, "Microsoft signed ActiveDirectory PowerShell module
+
+---------------------------------------------------------------------------------------------     
+CommandType     Name                                               Version    Source               
+-----------     ----                                               -------    ------               
+Cmdlet          Add-ADCentralAccessPolicyMember                    1.0.0.0    ActiveDirectory      
+Cmdlet          Add-ADComputerServiceAccount                       1.0.0.0    ActiveDirectory      
+Cmdlet          Add-ADDomainControllerPasswordReplicationPolicy    1.0.0.0    ActiveDirectory      
+Cmdlet          Add-ADFineGrainedPasswordPolicySubject             1.0.0.0    ActiveDirectory      
+Cmdlet          Add-ADGroupMember                                  1.0.0.0    ActiveDirectory      
+Cmdlet          Add-ADPrincipalGroupMembership                     1.0.0.0    ActiveDirectory      
+Cmdlet          Add-ADResourcePropertyListMember                   1.0.0.0    ActiveDirectory      
+Cmdlet          Clear-ADAccountExpiration                          1.0.0.0    ActiveDirectory      
+Cmdlet          Clear-ADClaimTransformLink                         1.0.0.0    ActiveDirectory      
+Cmdlet          Disable-ADAccount                                  1.0.0.0    ActiveDirectory      
+Cmdlet          Disable-ADOptionalFeature                          1.0.0.0    ActiveDirectory      
+Cmdlet          Enable-ADAccount                                   1.0.0.0    ActiveDirectory      
+Cmdlet          Enable-ADOptionalFeature                           1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADAccountAuthorizationGroup                    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADAccountResultantPasswordReplicationPolicy    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADAuthenticationPolicy                         1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADAuthenticationPolicySilo                     1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADCentralAccessPolicy                          1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADCentralAccessRule                            1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADClaimTransformPolicy                         1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADClaimType                                    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADComputer                                     1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADComputerServiceAccount                       1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADDCCloningExcludedApplicationList             1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADDefaultDomainPasswordPolicy                  1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADDomain                                       1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADDomainController                             1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADDomainControllerPasswordReplicationPolicy    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADDomainControllerPasswordReplicationPolicy... 1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADFineGrainedPasswordPolicy                    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADFineGrainedPasswordPolicySubject             1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADForest                                       1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADGroup                                        1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADGroupMember                                  1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADObject                                       1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADOptionalFeature                              1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADOrganizationalUnit                           1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADPrincipalGroupMembership                     1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationAttributeMetadata                 1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationConnection                        1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationFailure                           1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationPartnerMetadata                   1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationQueueOperation                    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationSite                              1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationSiteLink                          1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationSiteLinkBridge                    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationSubnet                            1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADReplicationUpToDatenessVectorTable           1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADResourceProperty                             1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADResourcePropertyList                         1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADResourcePropertyValueType                    1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADRootDSE                                      1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADServiceAccount                               1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADTrust                                        1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADUser                                         1.0.0.0    ActiveDirectory      
+Cmdlet          Get-ADUserResultantPasswordPolicy                  1.0.0.0    ActiveDirectory      
+Cmdlet          Grant-ADAuthenticationPolicySiloAccess             1.0.0.0    ActiveDirectory      
+Cmdlet          Install-ADServiceAccount                           1.0.0.0    ActiveDirectory      
+Cmdlet          Move-ADDirectoryServer                             1.0.0.0    ActiveDirectory      
+Cmdlet          Move-ADDirectoryServerOperationMasterRole          1.0.0.0    ActiveDirectory      
+Cmdlet          Move-ADObject                                      1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADAuthenticationPolicy                         1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADAuthenticationPolicySilo                     1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADCentralAccessPolicy                          1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADCentralAccessRule                            1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADClaimTransformPolicy                         1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADClaimType                                    1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADComputer                                     1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADDCCloneConfigFile                            1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADFineGrainedPasswordPolicy                    1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADGroup                                        1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADObject                                       1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADOrganizationalUnit                           1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADReplicationSite                              1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADReplicationSiteLink                          1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADReplicationSiteLinkBridge                    1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADReplicationSubnet                            1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADResourceProperty                             1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADResourcePropertyList                         1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADServiceAccount                               1.0.0.0    ActiveDirectory      
+Cmdlet          New-ADUser                                         1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADAuthenticationPolicy                      1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADAuthenticationPolicySilo                  1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADCentralAccessPolicy                       1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADCentralAccessPolicyMember                 1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADCentralAccessRule                         1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADClaimTransformPolicy                      1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADClaimType                                 1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADComputer                                  1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADComputerServiceAccount                    1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADDomainControllerPasswordReplicationPolicy 1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADFineGrainedPasswordPolicy                 1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADFineGrainedPasswordPolicySubject          1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADGroup                                     1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADGroupMember                               1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADObject                                    1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADOrganizationalUnit                        1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADPrincipalGroupMembership                  1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADReplicationSite                           1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADReplicationSiteLink                       1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADReplicationSiteLinkBridge                 1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADReplicationSubnet                         1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADResourceProperty                          1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADResourcePropertyList                      1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADResourcePropertyListMember                1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADServiceAccount                            1.0.0.0    ActiveDirectory      
+Cmdlet          Remove-ADUser                                      1.0.0.0    ActiveDirectory      
+Cmdlet          Rename-ADObject                                    1.0.0.0    ActiveDirectory      
+Cmdlet          Reset-ADServiceAccountPassword                     1.0.0.0    ActiveDirectory      
+Cmdlet          Restore-ADObject                                   1.0.0.0    ActiveDirectory      
+Cmdlet          Revoke-ADAuthenticationPolicySiloAccess            1.0.0.0    ActiveDirectory      
+Cmdlet          Search-ADAccount                                   1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADAccountAuthenticationPolicySilo              1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADAccountControl                               1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADAccountExpiration                            1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADAccountPassword                              1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADAuthenticationPolicy                         1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADAuthenticationPolicySilo                     1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADCentralAccessPolicy                          1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADCentralAccessRule                            1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADClaimTransformLink                           1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADClaimTransformPolicy                         1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADClaimType                                    1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADComputer                                     1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADDefaultDomainPasswordPolicy                  1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADDomain                                       1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADDomainMode                                   1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADFineGrainedPasswordPolicy                    1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADForest                                       1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADForestMode                                   1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADGroup                                        1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADObject                                       1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADOrganizationalUnit                           1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADReplicationConnection                        1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADReplicationSite                              1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADReplicationSiteLink                          1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADReplicationSiteLinkBridge                    1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADReplicationSubnet                            1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADResourceProperty                             1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADResourcePropertyList                         1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADServiceAccount                               1.0.0.0    ActiveDirectory      
+Cmdlet          Set-ADUser                                         1.0.0.0    ActiveDirectory      
+Cmdlet          Show-ADAuthenticationPolicyExpression              1.0.0.0    ActiveDirectory      
+Cmdlet          Sync-ADObject                                      1.0.0.0    ActiveDirectory      
+Cmdlet          Test-ADServiceAccount                              1.0.0.0    ActiveDirectory      
+Cmdlet          Uninstall-ADServiceAccount                         1.0.0.0    ActiveDirectory      
+Cmdlet          Unlock-ADAccount                                   1.0.0.0    ActiveDirectory");
+
+       return;
+
+    }
+
+    bexecute_assembly!($1, script_resource("Assemblies/ADModule.exe"),"-v -c \"$2\"");
+
+}
+
+alias Domain {
+	
+	blog($1,"ADModule \"Get-ADDomain | Select-Object -Property DomainSID,NetBIOSName,InfrastructureMaster,Forest\"");
+}
