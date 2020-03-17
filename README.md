@@ -19,7 +19,7 @@ This project serves as a temporary solution to that problem.
 Many times on a simulated engagement I came across AV stopping execution of powershell scripts even if they were executed through powerpick.
 This is my solution to the problem as well as introduces new improved version of powerpick that allows one to bypass script block logging and evade AV.
 
-HOW TO ?
+##### HOW TO ?
 
 All assemblies have been built to allow for execution in common post-exploitation frameworks using execute-assembly.
 Since the project uses mainly Straciatella runspace it also inherits its command switches.
@@ -28,7 +28,7 @@ Since the project uses mainly Straciatella runspace it also inherits its command
 
 To make sure all long, formated powershell arguments are passed without any errors it is best to wrap your argument in double quotes.
 
-DIY:
+##### DIY:
 
 If you would like to build modules yourself here is a recepie:
 
