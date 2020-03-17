@@ -7,6 +7,8 @@ https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=win1
 
 `ADModule "Get-ADDomain | Select-Object -Property DomainSID,NetBIOSName,InfrastructureMaster,Forest"`
 
+https://raw.githubusercontent.com/hackabean/PowerSharp/master/ADModule/ADModule.png
+
 
 
 ##### CREDIT:
