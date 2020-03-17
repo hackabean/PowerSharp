@@ -164,10 +164,5 @@ Cmdlet          Unlock-ADAccount                                   1.0.0.0    Ac
     }
 
     bexecute_assembly!($1, script_resource("Assemblies/ADModule.exe"),"-v -c \"$2\"");
-
 }
 
-alias Domain {
-	
-	blog($1,"ADModule \"Get-ADDomain | Select-Object -Property DomainSID,NetBIOSName,InfrastructureMaster,Forest\"");
-}
