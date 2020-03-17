@@ -1,7 +1,7 @@
-# PowerSharp
+#####  PowerSharp
 Moving powershell modules to enhanced PowerPick tool.
 
-CREDIT:
+##### CREDIT:
 
 Most of the heavy lifting has been done by creators of:
 
@@ -9,12 +9,12 @@ https://github.com/mgeeky/Stracciatella
 
 I just added 2 + 2. 
 
-PURPOUSE:
+#####  PURPOUSE:
 
 Even though offensive security tradecraft has moved to C# and away from powershell many scripts and tools have not been fully translated into a new language.
 This project serves as a temporary solution to that problem.
 
-WHY ?
+##### WHY ?
 
 Many times on a simulated engagement I came across AV stopping execution of powershell scripts even if they were executed through powerpick.
 This is my solution to the problem as well as introduces new improved version of powerpick that allows one to bypass script block logging and evade AV.
