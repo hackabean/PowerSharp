@@ -36,9 +36,14 @@ If you would like to build modules yourself here is a recepie:
 
 https://github.com/hackabean/Stracciatella
 
-2) Base64 encode your powershell script and place it in line 538
+* restore nuget packages
+`nuget restore`
 
-`command =  "IEX([Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('BASE64HERE'))); " + command;`
+2) Base64 encode your powershell script and place it in line 486
+
+* Use provided EncodeAndCompress.sh bash script to do so.
+
+`string scriptContents = "IEX([Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('BASE64HERE')))";`
 
 3) Build solution with xbuild directly from linux or use VS17/19 from Windows.
 
