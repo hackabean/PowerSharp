@@ -11,7 +11,6 @@ https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=win1
 
 
 
-
 ##### CREDIT:
 
 https://github.com/samratashok/ADModule
