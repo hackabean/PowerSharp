@@ -43,6 +43,8 @@ https://github.com/hackabean/Stracciatella
 
 * Use provided EncodeAndCompress.sh bash script to do so.
 
+`EncodeAndCompress.sh path\to\powershell.ps1`
+
 `string scriptContents = "IEX([Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('BASE64HERE')))";`
 
 3) Build solution with xbuild directly from linux or use VS17/19 from Windows.
