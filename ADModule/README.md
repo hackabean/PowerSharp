@@ -5,7 +5,7 @@ https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=win1
 
 ##### EXAMPLE:
 
-ADModule "Get-ADDomain | Select-Object -Property DomainSID,NetBIOSName,InfrastructureMaster,Forest"
+`ADModule "Get-ADDomain | Select-Object -Property DomainSID,NetBIOSName,InfrastructureMaster,Forest"`
 
 ##### CREDIT:
 
