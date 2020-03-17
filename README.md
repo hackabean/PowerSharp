@@ -28,4 +28,18 @@ Since the project uses mainly Straciatella runspace it also inherits its command
 
 To make sure all long, formated powershell arguments are passed without any errors it is best to wrap your argument in double quotes.
 
+DIY:
+
+If you would like to build modules yourself here is a recepie:
+
+1) Use forked version of Stracciatella:
+
+https://github.com/hackabean/Stracciatella
+
+2) Base64 encode your powershell script and place it in line 538
+
+`command =  "IEX([Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('BASE64HERE'))); " + command;`
+
+3) Build solution with xbuild directly from linux or use VS17/19 from Windows.
+
 
