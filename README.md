@@ -42,4 +42,10 @@ https://github.com/hackabean/Stracciatella
 
 3) Build solution with xbuild directly from linux or use VS17/19 from Windows.
 
+4) Should the resulting assembly fall over the limit of 1MB, use compression. Personally I use:
+
+https://github.com/TotalTechGeek/DotNetCompressor
+
+Which can be run on Linux with mono for -gz compression.
+
 
